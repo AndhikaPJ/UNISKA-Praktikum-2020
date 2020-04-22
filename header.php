@@ -4,21 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Praktikum Pemrograman Web 2</title>
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/site.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="container">
+    <div class="container bg-success">
         <div class="content">
-            <nav class="nav navbar-inverse">
-                <div id="nav">
+            <nav class="navbar navbar-inverse">
+                <div id="navbar">
                     <ul class="dropDownMenu">
-                        <li><a href="./">Beranda</a></li>
-                        <li><a href="#">Master Data</a></li>
-                        <li><a href="#">Data Karyawan</a></li>
-                        <li><a href="#">Laporan</a></li>
-                        <li><a href="#">Cetak Data Karyawan</a></li>
+                        <li class="text-black"><a href="./">Beranda</a></li>
+                        <li><a href="#">Master Data</a>
+                            <ul><a href="#">Data Karyawan</a></ul>
+                        </li>
+                        <li><a href="#">Laporan</a>
+                            <ul><a href="#">Cetak Data Karyawan</a></ul>
+                        </li>
                         <li><a href="about.php">Tentang Saya</a></li>
                     </ul>
                 </div>
@@ -26,6 +29,5 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container bg-success">
         <div class="content">
-

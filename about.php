@@ -1,37 +1,53 @@
-<?php include('header.php') ?>
+<?php
+	include ('header.php');
+?>
+	<div class="col-sm-9">
+		<h2>Tentang Saya</h2>
+		<hr/>
 
-<div class="col-sm-9">
-    <h2>Tentang Saya</h2>
-    <hr>
-    <div class="well">
-        <p>Terima kasih telah berkunjung ke web hasil Praktikum Pemrograman Web 1</p>
-    </div>
+		<div class="card bg-warning">
+			<table>
+			<img src="img/foto.JPG" Style="float:left; padding:8px;" width="13%">
+                
+            <h1>ANDHIKA PJ</h1>
+            <table>
 
-    <div class="well">
-        <p>Terima kasih telah berkunjung ke web hasil Praktikum Pemrograman Web 1</p>
-    </div>
-</div>
+            <tr>
+                <td>Nama</td>
+                <td> : Andhika Prima Jaya</td>
+            </tr>
 
-<div class="col-sm-3">
-    <div class="sidebar">
-        <h2>Info Terbaru</h2>
-        <hr>
+            <tr>
+                <td>NPM</td>
+                <td> : 1863.0758</td>
+            </tr>
 
-        <div class="well">
-            <img class="img" src="img/uniska.png" width="80%">
-            
+            <tr>
+                <td>Kelas</td>
+                <td> : 4B NR BJB</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td> : Banjarbaru</td>
+            </tr>
+
+            </table>
         </div>
-    </div>
-
-    <div class="sidebar">
-        <h2>Info Terbaru</h2>
-        <hr>
-
+        
         <div class="well">
-            <img class="img" src="img/uniska.png" width="80%">
+            <p> Masih belum selesai Pak :v </p>
         </div>
-    </div>
-</div>
+	</div>
 
-
-<?php include ('footer.php') ?>
+	<div align="center" class="col-sm-3">
+		<div class="sidebar">
+            <h2>UNISKA BJM</h2>
+            <hr>
+			<div class="well">
+				<img src="img/uniska.png" width="80%" class="img">
+			</div>
+		</div>
+	</div>
+<?php
+	include ('footer.php');
+?>
